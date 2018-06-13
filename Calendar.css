@@ -1,0 +1,54 @@
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #819FF7;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+
+}
+
+#title-top-month{
+	color:black;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.month-table{
+    text-align: center;
+}
+
+.today{
+	background-color: #819FF7;
+    border-radius: 3px;
+	color: white;
+}
+
+.holiday{
+    color: red;
+}
+
+.month{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+	border: solid 3px black;
+	width: 280px;
+    padding:15px;
+}
+
+.flip {
+	transform: rotateY(-180deg);
+    transition: all ease .4s;
+}
+.flipback {
+	transform: rotateY(180deg);
+    transition: all ease .4s;
+}
